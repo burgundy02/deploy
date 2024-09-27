@@ -29,7 +29,7 @@ jobs:
           ls -a
       - name: test1
         run: |
-         echo "test1 출력"
+          echo "test1 출력"
       - name: test2
         run: |
           echo "test2 출력"
