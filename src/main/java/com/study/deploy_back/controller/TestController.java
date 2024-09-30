@@ -12,11 +12,15 @@ public class TestController {
     @Value("${client.address}")
     private String clientAddress;
 
-    @CrossOrigin
-    @GetMapping
+
+    @GetMapping("/test")
     public ResponseEntity<?> test(){
         return ResponseEntity.ok(clientAddress + "test");
     }
+
+
+
+
 }
 
 
